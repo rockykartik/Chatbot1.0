@@ -9,4 +9,4 @@ WORKDIR /app/
 RUN pip3 install --upgrade pip
 
 
-CMD deno run -A main.ts --polling
+CMD ./bot.ts
