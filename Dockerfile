@@ -9,4 +9,4 @@ WORKDIR /app/
 RUN pip3 install --upgrade pip
 
 
-CMD bash start
+CMD deno run -A main.ts --polling
